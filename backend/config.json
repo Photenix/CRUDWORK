@@ -1,0 +1,6 @@
+{
+    "port": 3030,
+    "static": "data",
+    "watch": true,
+    "data": "./data/products.jsons"
+}

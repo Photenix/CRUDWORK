@@ -5,12 +5,13 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "json-server data/products.json -p 2020",
+    "info": "json-server --help"
   },
   "keywords": [],
   "author": "JM4P1R0",
   "license": "ISC",
   "dependencies": {
-    "json-server": "^0.17.0"
+    "json-server": "^1.0.0-alpha.23"
   }
 }

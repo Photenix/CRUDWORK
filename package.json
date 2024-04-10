@@ -4,12 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node --watch index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "JM4P1R0",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.27.2"
+    "axios": "^1.6.8"
   }
 }

@@ -6,8 +6,8 @@ let btnEditar = document.getElementById('btnEditar');
 let btnEliminar = document.getElementById('btnEliminar');
 
 let formulario = document.getElementById('formulario');
-//const url= 'http://localhost:3000/usuarios/'
-const url= 'https://vuelta-al-mundo.herokuapp.com/usuarios'
+const url= 'http://localhost:2020/usuarios/'
+// const url= 'https://vuelta-al-mundo.herokuapp.com/usuarios'
 
 //------------Guardar----------------/
 formulario.addEventListener('submit', async (e)=>{
